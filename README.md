@@ -1,3 +1,32 @@
+# Hac 
+
+Installation 
+
+```
+sudo apt update
+
+sudo apt install python2 python2-dev
+
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+
+sudo python2 get-pip.py
+
+```
+
+After installing create a python virtual environment 
+
+```
+virtualenv -p python2 myenv
+
+source myenv/bin/activate
+
+pip2 install -r requirements.txt 
+
+
+```
+
+
+
 Tplmap
 ======
 
